@@ -9,7 +9,7 @@ export default function App(props) {
     <View style={styles.container} >
       <Text style={styles.title}>Chat App</Text>
       <Text style={styles.content}>
-        Here props from Super App: {JSON.stringify(props)}
+        Here props from the Super App: {JSON.stringify(props)}
       </Text>
 
       <TouchableOpacity
