@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TextInput, SafeAreaView, TouchableOpacity, Nati
 
 const { ConnectNativeModule } = NativeModules;
 
-export default function App() {
+const App = () => {
 
   const [input, setInput] = useState('');
 
@@ -95,3 +95,5 @@ const styles = StyleSheet.create({
     borderColor: "#03346E",
   },
 });
+
+export default App
